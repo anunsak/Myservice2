@@ -6,6 +6,7 @@ import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -60,6 +61,9 @@ public class CalculateFragment extends Fragment{
     private void getValuFormArgument() {
         moneyString = getArguments().getString("Money");
         factorADouble = getArguments().getDouble("Factor");
+        String tag = "17DecV1";
+        Log.d(tag, "moneyString ==>" + moneyString);
+        Log.d(tag, "facter ==>" + factorADouble);
     }
 
     private void calculateControler() {
