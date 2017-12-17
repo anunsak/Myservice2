@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">My service2</string>
+    <string name="have_space">มีช่องว่าง</string>
+    <string name="message_space">กรุณา</string>
 </resources>
